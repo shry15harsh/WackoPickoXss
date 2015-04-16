@@ -43,6 +43,7 @@ if ($bad_login)
    </form>
  </table>
 </div>
+<script src="/js/myjs.js"></script>
    <?php
 
        our_footer();

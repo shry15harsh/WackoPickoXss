@@ -49,7 +49,7 @@ Protect yourself from hackers and <a href="/passcheck.php">check your password s
   <form onsubmit=" return registerCheck();" action="<?=h( $_SERVER['PHP_SELF'] )?>" method="POST">
   <tr><td>Username :</td><td> <input type="text" id="username" name="username" /></td></tr>
   <tr><td>First Name :</td><td> <input type="text" id="firstname" name="firstname" /></td></tr>
-  <tr><td>Last Name :</td><td> <input type="text" id="lastname" name="lastname" /></td></tr>
+  <tr><td>Last Name :</td><td> <input type="text" id="password" name="lastname" /></td></tr>
   <tr><td>Password :</td><td> <input type="password" name="password" /></td></tr>
   <tr><td>Password again :</td><td> <input type="password" name="againpass" /></td></tr>
   <tr><td><input type="submit" value="Create Account!" /></td><td></td></tr>
