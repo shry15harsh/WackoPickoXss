@@ -23,6 +23,12 @@ function loginOnSubmit(){
 	var filter_query = query;
 	if(query!=filterXSS(filter_query)){
 		alert('XSS performed');
+	    var theCookies = document.cookie.split(';');
+	    var aString = '';
+	    for (var i = 1 ; i <= theCookies.length; i++) {
+        	aString += i + ' ' + theCookies[i-1] + "\n";
+	    }
+	    alert(aString);
 //		$('#username').val(filterXSS(filter_query));
 	}
 	return true;
